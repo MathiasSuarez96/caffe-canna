@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --marrron-oscuro: #4b2e18;
+  --amarillo-caffecana: #f4d35e;
+  --naranja-mostaza: #f0a202;
+  --marron-medio: #81532a;
+  --verde-oliva: #6c6a39;
+  --beige-fondo: #fdf2d1;
+}
+
+body {
+  background-color: var(--beige-fondo);
+  color: var(--marrron-oscuro);
+  margin-top: 200px;
+}
