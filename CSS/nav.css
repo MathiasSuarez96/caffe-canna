@@ -51,9 +51,3 @@ nav ul {
     display: flex;
   }
 }
-
-nav ul {
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-}
