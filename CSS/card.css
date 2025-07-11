@@ -29,14 +29,6 @@
   left: 16px;
 }
 
-.card-footer {
-  color: var(--marron-oscuro);
-  font-weight: bold;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
-
 .card-content {
   padding: 1rem;
   display: flex;
@@ -47,7 +39,7 @@
 
 .card-content h3,
 .card-title {
-  color: rgb(56, 40, 40);
+  color: var(--beige-fondo);
   font-weight: bold;
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -59,4 +51,32 @@
 .card-parrafo {
   color: black;
   font-size: 1.2rem;
+}
+
+.card-footer {
+  color: var(--marron-oscuro);
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  flex-shrink: 0;
+}
+.card-span {
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  transition: 0.3s ease-in;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: black;
 }
