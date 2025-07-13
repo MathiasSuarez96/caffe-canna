@@ -47,6 +47,10 @@ nav ul {
 }
 
 @media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
   .menu-hamburger {
     display: flex;
   }

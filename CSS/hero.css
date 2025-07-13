@@ -43,3 +43,18 @@
   color: #333;
   max-width: 600;
 }
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 180px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+}

@@ -1,26 +1,172 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CafeCanna</title>
     <link rel="stylesheet" href="CSS/root.css" />
     <link rel="stylesheet" href="CSS/nav.css" />
     <link rel="stylesheet" href="CSS/hero.css" />
     <link rel="stylesheet" href="CSS/card.css" />
     <link rel="stylesheet" href="CSS/tiendas.css" />
-</head>
-<section id="tiendas">
-  <h2 class="tiendas-section">Nuestras Tiendas</h2>
-  <div class="tiendas-container">
-  <div class="tiendas-card">
-    <img src="https://placehold.co/400x150?text=Cafe+Canna+Pocitos" alt="Tienda-1" class="tiendas-img" />
-    <h3 class="tiendas-nombre">Sucursal Pocitos</h3>
-    <p class="tiendas-ubi">En pleno Pocitos, a pasos de la rambla. Un ambiente moderno y luminoso para disfrutar tu café con vista.</p>
-  </div>
-  </div>
-</section>
+    <link rel="stylesheet" href="CSS/footer.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <div class="logo">
+          <img src="CSS/img/CafecanaLogo.jpeg" alt="Logo caffe-cana" />
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Locales</a></li>
+          <li><a href="#">Quienes Somos</a></li>
+        </ul>
+        <div class="menu-hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
 
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <img
+          src="CSS/img/Sub logo cafecanna.jpeg"
+          alt="logo-cafecanna"
+          class="hero-img"
+        />
+        <h1 class="hero-title">
+          <span class="title-main">CAFE CANNA</span>
+          <span class="title-sub">Tu espacio ideal</span>
+        </h1>
+        <p class="parrafo">Los mejores cafe de Uruguay</p>
+        <p class="parrafo-principal">
+          Café Canna es una empresa uruguaya innovadora que fusiona dos mundos en una sola experiencia: la calidez social del café y la cultura del cannabis legal y responsable. Inspirado en los tradicionales coffeeshops de Ámsterdam y adaptado a la realidad uruguaya, Café Canna propone un nuevo concepto de encuentro: un espacio relajado, moderno y consciente, donde las personas pueden disfrutar, aprender y compartir sin prejuicios.
+        </p>
+      </div>
+    </section>
 
-</body>
+    <!-- Cards de productos -->
+    <article class="news-card">
+      <div class="card-img">
+        <img src="CSS/img/Cafe negro.png" alt="Cafe negro" class="cafe-negro" />
+        <div class="card-overlay">
+          <span class="card-footer">Clásico</span>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Café negro</h3>
+        <p class="card-parrafo">
+          Puro, fuerte y directo al alma. Para los amantes del sabor real, sin vueltas. Un clásico que nunca falla.
+        </p>
+        <div class="card-footer">
+          <span class="card-span">Es nuestro producto estrella</span>
+          <a href="#" class="btn-secondary" id="btn-producto1">Ver más</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-card">
+      <div class="card-img">
+        <img src="CSS/img/Cafe Latte.png" alt="Cafe Latte" class="cafe-negro" />
+        <div class="card-overlay">
+          <span class="card-footer">Fashion</span>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Café Latte</h3>
+        <p class="card-parrafo">
+          Suave, cremoso y balanceado. El equilibrio perfecto entre café intenso y leche espumosa. Ideal para tardes tranquilas o charlas profundas.
+        </p>
+        <div class="card-footer">
+          <span class="card-span">Nuestro café más armonioso</span>
+          <a href="#" class="btn-secondary" id="btn-producto2">Ver más</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="news-card">
+      <div class="card-img">
+        <img src="CSS/img/Cafe Capuccino.png" alt="Cafe Capuccino" class="cafe-negro" />
+        <div class="card-overlay">
+          <span class="card-footer">Inolvidable</span>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">Café Capuccino</h3>
+        <p class="card-parrafo">
+          Clásico entre clásicos. Con su espuma generosa y sabor envolvente, es una caricia en cada sorbo. Elegancia en taza.
+        </p>
+        <div class="card-footer">
+          <span class="card-span">El favorito de los que saben</span>
+          <a href="#" class="btn-secondary" id="btn-producto3">Ver más</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Sección Tiendas -->
+    <section id="tiendas">
+      <h2 class="tiendas-section">Nuestras Tiendas</h2>
+      <div class="tiendas-container">
+        <div class="tiendas-card">
+          <img src="https://placehold.co/400x150?text=Caffe+Cana+Pocitos" alt="Sucursal Pocitos" class="tiendas-img" />
+          <h3 class="tiendas-nombre">Sucursal Pocitos</h3>
+          <p class="tiendas-ubi">
+            En pleno Pocitos, a pasos de la rambla. Un ambiente moderno y luminoso para disfrutar tu café con vista.
+          </p>
+        </div>
+
+        <div class="tiendas-card">
+          <img src="https://placehold.co/400x150?text=Caffe+Cana+Punta+Carretas" alt="Sucursal Punta Carretas" class="tiendas-img" />
+          <h3 class="tiendas-nombre">Sucursal Punta Carretas</h3>
+          <p class="tiendas-ubi">
+            Ubicada en una de las zonas más elegantes de Montevideo. Ideal para una pausa entre compras o paseos.
+          </p>
+        </div>
+
+        <div class="tiendas-card">
+          <img src="https://placehold.co/400x150?text=Caffe+Cana+Ciudad+Vieja" alt="Sucursal Ciudad Vieja" class="tiendas-img" />
+          <h3 class="tiendas-nombre">Sucursal Ciudad Vieja</h3>
+          <p class="tiendas-ubi">
+            Rodeada de historia y cultura. Un rincón con mucha identidad, perfecto para disfrutar del café en un entorno clásico.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 class="cana-footer">Esto es Café Cana</h3>
+          <p class="footer-parrafo">
+            Gracias por acompañarnos en este recorrido.<br />
+            Cada visita es una oportunidad para crear experiencias únicas y conscientes.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>¡Contactanos!</h4>
+          <p>Email: caffe-cana@gmail.com</p>
+          <p>Teléfono: +598 98 234 420</p>
+        </div>
+
+        <div class="footer-section">
+          <h4>¡Seguinos en nuestras redes!</h4>
+          <a href="https://www.instagram.com/" aria-label="Instagram">💬</a>
+          <a href="https://x.com/" aria-label="Twitter">🐦</a>
+          <a href="https://www.youtube.com/?app=desktop&hl=es" aria-label="YouTube">📺</a>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <p>© 2025 Café Cana. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <!-- JS -->
+     <script src="JS/script.js"></script>
+  </body>
 </html>

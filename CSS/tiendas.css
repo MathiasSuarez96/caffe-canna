@@ -6,3 +6,63 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+.tiendas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 0, 2rem;
+}
+
+.tiendas-card {
+  background-color: var(--beige-fondo);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0, 10px, 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tiendas-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.tiendas-nombre {
+  font-size: 1.5rem;
+  color: var(--marron-oscuro);
+  margin-bottom: 0.5rem;
+}
+
+.tiendas-ubi {
+  font-size: 1rem;
+  color: #333;
+}
+
+@media (max-width: 480px) {
+  .tiendas-ubi {
+    font-size: 0.9rem;
+  }
+
+  .tiendas-nombre {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 2rem;
+  }
+
+  .footer-section h3,
+  .footer-section h4 {
+    font-size: 1.3rem;
+  }
+}

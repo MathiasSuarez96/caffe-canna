@@ -80,3 +80,17 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   color: black;
 }
+
+@media (max-width: 480px) {
+  .news-card {
+    margin: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-parrafo {
+    font-size: 1rem;
+  }
+}
